@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="listAllMovies"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".HomeScreen">
+
+        <Button
+            android:id="@+id/listAllMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="ALL MOVIES"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <Button
+            android:id="@+id/getFavourites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="GET FAVOURITES"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="94dp" />
+    </LinearLayout>
+</layout>
